@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* This part is for positioning
+.wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 0px auto;
+    background-color: gray;
+    position: relative;
+}
+
+
+.fixed,.relative,.absolute {
+    width : 100px;
+    height: 100px;
+}
+
+
+.fixed {
+    position: fixed;
+    background-color: red;
+    left: 0px;
+    top: 0px;
+}
+
+.relative {
+   
+    background-color: green;
+}
+
+.absolute {
+    position: absolute;
+    background-color: yellow;
+    left: 0px;
+    bottom: 0px;
+}
+*/
+
+/* This part is for befor after
+.wrapper {
+    width: 960px;
+    height : 500px;
+    margin: 0px auto;
+}
+
+.header:before,.header:after {
+    content: "";
+    display: table;
+}
+
+.header:after {
+    clear: both;
+}
+
+.header {
+    background-color: gray;
+}
+
+.logo {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+}
+*/
+
+/* This part is for table and table-cell */ positioning
+.wrapper {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.banner {
+    background-image: url(img/banner.jpeg);
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+    display: table;
+}
+
+.banner-cell {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px 100px;
+}
+
+
+
+
+
