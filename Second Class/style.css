@@ -8,16 +8,24 @@
     margin: 0px auto;
 }
 
-.header {
-    background-color: #fff;
+.header before,after{
     overflow: hidden;
 }
 
+
 .logo {
-    float: left;
-    text-decoration: none;
+    float: left; 
 }
 
+.logo a {
+    text-decoration: none;
+    border: 3px solid transparent;
+}
+
+.logo a:hover {
+    background-color: red;
+    border: 3px solid green;
+}
 
 .menu {
     float: right;
@@ -55,7 +63,7 @@
 .main_content {
     float: left;
     width: 740px;
-    text-align: justify;
+    text-align:justify;
 }
 
 .main_content h1 {

@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-/* This part is for positioning
+ This part is for positioning
 .wrapper {
     width: 500px;
     height: 500px;
@@ -37,7 +37,7 @@
     left: 0px;
     bottom: 0px;
 }
-*/
+
 
 /* This part is for befor after
 .wrapper {
@@ -80,7 +80,8 @@
 }
 */
 
-/* This part is for table and table-cell */ positioning
+/* This part is for table and table-cell */ 
+/*
 .wrapper {
     width: 960px;
     margin: 0px auto;
@@ -99,6 +100,7 @@
     vertical-align: middle;
     padding: 0px 100px;
 }
+*/
 
 
 
