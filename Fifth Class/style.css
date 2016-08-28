@@ -8,7 +8,8 @@ a,a:hover {
 }
 
 h1,h2,h3,h4,h5,h6,p {
-    margin-bottom: 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
 body {
@@ -135,7 +136,7 @@ body {
 }
 
 .section-title p {
-    font-weight: 14px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -143,7 +144,7 @@ body {
     list-style: none;
     text-align: center;
     margin-bottom: 30px;
-    margin-left: -10px;
+    margin-left: -15px;
 }
 
 .portfolio ul li{
@@ -151,5 +152,79 @@ body {
     list-style: none;
     background-color: #1BBC9B;
     padding: 8px 10px;
-    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.items {
+    margin-left:-30px;
+}
+
+.img-1 {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 217px;
+    width: 217px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.img-hover {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    transform: scale(0);
+    transition: all 0.5s ease 0.0s;
+}
+
+.img-hover:before {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: #16a086;
+    opacity: .75;
+}
+
+.img-hover * {
+    position: relative;
+    z-index: 2;
+}
+
+.img-hover a {
+    height: 35px;
+    width: 35px;
+    display: inline-table;
+    border-radius: 50%;
+    position: relative;
+    color: #fff;
+    margin-top: 60px;
+}
+
+.img-hover a:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    background-color: #444;
+    opacity: .61;
+    border-radius: 50%;
+    content: "";
+}
+
+.img-hover a i {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 3;
+}
+
+.img-1:hover .img-hover {
+    transform: scale(1);
 }
