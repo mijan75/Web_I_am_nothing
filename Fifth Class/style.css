@@ -228,3 +228,197 @@ body {
 .img-1:hover .img-hover {
     transform: scale(1);
 }
+
+.about-area {
+    background-color: #16A086;
+    padding: 40px 0px;
+}
+
+.member-list {
+    
+}
+
+.m-img img {
+    min-width: 100%;
+}
+
+.member {
+    width: 280px;
+    margin-left: 30px;;
+}
+
+.contact-area {
+    padding: 30px;
+}
+
+.about-area .section-title{
+    color: white;
+}
+
+.member {
+    background: #fff;
+}
+
+.member h3 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.member h3 span {
+    display: block;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.member p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.contact-area {
+    background-color: #ECF0F1;
+    margin-left: -30px;
+    padding: 30px;
+    color: #444;
+    
+}
+
+.contact {
+    margin-left: -30px;
+}
+
+.contact-form,.contact-list {
+    width: 465px;
+   margin-left: 30px;
+}
+
+.contact-form textarea {
+    width: 95%;
+    margin-top: 20px;
+    padding: 5px 5px;
+}
+
+.contact-form input[type="text"] {
+    width: 45%;
+}
+
+.contact-form input[type="text"] {
+    margin-right: 10px;
+    padding: 5px 5px;
+}
+
+.contact-form input[type="email"] {
+    padding: 5px 5px;
+    width: 200px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: 31BBC9B;
+    border: none;
+    display: block;
+    padding: 7px 14px;
+    margin-top: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    margin-right: 5px;
+}
+
+.footer-area {
+    background-color: #2D3E50;
+    padding: 20px 10px;
+}
+
+.footer p {
+    margin-top: 6px;
+    color: #fff;
+}
+
+.footer-left {
+    margin-top: 7px;
+}
+
+.footer a i {
+    background-color: #1BBC9B;
+    display: block;
+    padding: 10px 13px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.contact-list h6 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.contact-list p.address {
+    position: relative;
+}
+
+.contact-list p.address:before {
+    content: "\f041";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.contact-list p.address span {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.contact-list p.phone {
+    position: relative;
+}
+
+.contact-list p.phone:before {
+    content: "\f095";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.contact-list p.phone {
+    padding-left: 20px;
+}
+
+.contact-list p.fax {
+    position: relative;
+}
+
+.contact-list p.fax:before {
+    content: "\f02f";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.contact-list p.fax {
+    padding-left: 20px;
+}
+
+
+.contact-list p.mail{
+    position: relative;
+}
+
+.contact-list p.mail:before {
+    content: "\f0e0";
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    
+}
+
+.contact-list p.mail {
+    padding-left: 20px;
+}
+
